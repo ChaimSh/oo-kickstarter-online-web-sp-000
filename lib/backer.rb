@@ -12,6 +12,5 @@ end
 def back_project(title)
   @backed_projects << Project.new(title)
 end
-end
 
 end
