@@ -9,8 +9,8 @@ def initialize(name)
 end
 
 
-def back_project(Project)
-  @backed_projects << Project
+def back_project(project)
+  @backed_projects << project
 end
 
 
