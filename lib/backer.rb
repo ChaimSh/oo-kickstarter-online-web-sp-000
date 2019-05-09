@@ -11,6 +11,7 @@ end
 
 def back_project(project)
   @backed_projects << project
+  project.each { |projects| Project.add_backer }
 end
 
 
