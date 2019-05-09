@@ -11,7 +11,7 @@ end
 
 def back_project(project)
   @backed_projects << project
-  if backed_projects >= 1
+  if backed_projects > 0
   Project.add_backer
 end
 end
