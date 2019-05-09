@@ -9,7 +9,7 @@ def initialize(name)
 end
 
 
-def back_project(title)
+def back_project(project)
   @backed_projects << Project.new(title)
 end
 
