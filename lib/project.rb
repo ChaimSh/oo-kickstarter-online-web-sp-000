@@ -12,8 +12,5 @@ def add_backer(backer)
 @backers << backer
 end
 
-def add_backer
-
-end
 
 end
