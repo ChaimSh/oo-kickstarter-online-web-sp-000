@@ -11,7 +11,7 @@ end
 
 def back_project(project)
   @backed_projects << project
-  if backed_projects.size > 0
+  if @backed_projects.size > 0
   Project.add_backer(backer)
 end
 end
